@@ -13,6 +13,7 @@ int main() {
             cout << ch << " ";
             ch--;           // move backward
         }
+      
 
         cout << endl;
     }
