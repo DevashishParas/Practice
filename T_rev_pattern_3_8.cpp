@@ -1,20 +1,21 @@
 #include <iostream>
 using namespace std;
+
 int main() {
-  int n;
-  cin>>n;
-  char ch='A';
+    int n;
+    cin >> n;
 
-  for(int i=0; i<n; i++){
-   
-    for(int j=i+1; j>0; j--){
-        
+    for(int i = 0; i < n; i++){
 
-        cout<<ch<<" ";
-         ch=ch+1;
+        char ch = 'A'+i ;   // reset for each row
 
+        for(int j = i + 1; j > 0; j--){
+            cout << ch << " ";
+            ch--;           // move backward
+        }
+
+        cout << endl;
     }
-    cout<<endl;
-  }
- return 0;
+
+    return 0;
 }
