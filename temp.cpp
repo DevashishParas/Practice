@@ -1,22 +1,21 @@
 #include <iostream>
 using namespace std;
 int main() {
-  
+      //4
     int n;
     cin>>n;
-    char ch='A';
-    
+   
     for(int i=0; i<n; i++){
-       
-        
+         int num=1;
         for(int j=0; j<i+1; j++){
 
-            cout<<ch<<" ";
-          
-          
+            cout<<num<<" ";
+            num++;
+            
+ 
         }
         cout<<endl;
-           ch=ch+1;
+        
     }
  return 0;
 }
