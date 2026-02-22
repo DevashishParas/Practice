@@ -14,5 +14,6 @@ int main() {
     cout<<endl;
 
    }
+   cout<<"after pattern "<< num;
  return 0;
 }
